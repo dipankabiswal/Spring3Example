@@ -30,14 +30,7 @@ public class AppTest
     }
     
     
-    @Test
-    public void testAppConstructorp() {
-        try {
-            new App();
-        } catch (Exception e) {
-            fail("Construction failed.");
-        }
-    }
+    
 
     @Test
     public void testAppMain()
